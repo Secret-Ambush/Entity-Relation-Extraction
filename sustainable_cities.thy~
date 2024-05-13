@@ -1,0 +1,97 @@
+theory sustainable_cities imports Main
+begin 
+
+typedecl i
+type_synonym entity = "i\<Rightarrow>bool"
+type_synonym relation = "i \<Rightarrow> i \<Rightarrow> bool"
+
+definition ISA :: "entity \<Rightarrow> entity \<Rightarrow> bool" ("_ is _") where
+"Entity1 is Entity2 \<equiv> (\<forall>z. Entity1 z \<longrightarrow> Entity2 z)" 
+
+
+definition disjoint :: "entity \<Rightarrow> entity \<Rightarrow> bool" where 
+    "disjoint C1 C2 \<equiv> \<not>(\<exists>x::i. C1 x \<and> C2 x)"
+
+definition conv_rel :: "relation \<Rightarrow> relation" where 
+   "conv_rel Rel \<equiv> (\<lambda>x y. Rel y x)"
+
+definition is_empty_rel :: "relation \<Rightarrow> bool" where 
+   "is_empty_rel Rel \<equiv> (\<forall>x y. \<not>Rel x y)"
+
+definition one_to_n_rel :: "entity \<Rightarrow> entity \<Rightarrow> relation \<Rightarrow> bool" where 
+    "one_to_n_rel E1 E2 Rel \<equiv> 
+    ((\<exists>x. E1 x) \<and> (\<forall>x. E1 x \<longrightarrow> (\<exists>y. E2 y \<and> Rel x y)))
+    \<and>
+    (\<forall>x y. Rel x y \<longrightarrow> ((E1 x \<and> E2 y)))"
+
+definition n_to_one_rel :: "entity \<Rightarrow> entity \<Rightarrow> relation \<Rightarrow> bool" where
+    "n_to_one_rel E1 E2 Rel \<equiv> one_to_n_rel E2 E1 (conv_rel Rel)"
+
+definition n_to_m_rel :: "entity \<Rightarrow> entity \<Rightarrow> relation \<Rightarrow> bool" where
+    "n_to_m_rel E1 E2 Rel \<equiv> one_to_n_rel E1 E2 Rel \<and> n_to_one_rel E1 E2 Rel"
+
+definition one_to_one_rel :: "entity \<Rightarrow> entity \<Rightarrow> relation \<Rightarrow> bool" where
+   "one_to_one_rel E1 E2 Rel \<equiv> 
+    n_to_m_rel E1 E2 Rel 
+    \<and> (\<forall>x y z. (Rel x y \<and> Rel x z) \<longrightarrow> y = z)
+    \<and> (\<forall>x y z. (Rel x y \<and> Rel z y) \<longrightarrow> x = z)"
+
+consts
+  (*Entities*)
+  inclusive__residents :: entity
+  Renewable_energy_sources :: entity
+  sustainable_energy_cities :: entity
+  urban__development :: entity
+  Water_conservation_measures :: entity
+  private__vehicles :: entity
+  Waste_management :: entity
+  environmental__development :: entity
+  sustainable__construction :: entity
+  sustainable_water_cities :: entity
+  waste__energy :: entity
+  recreational_air_spaces :: entity
+  Urban__planning :: entity
+  green_carbon_biodiversity :: entity
+  Community_engagement :: entity
+  Public_transportation_systems :: entity
+  urban_sustainability_areas :: entity
+  Sustainable__cities :: entity
+  (*Relations*)
+  Are_integral :: relation ("_ are-integral _")
+  Invest_in :: relation ("_ invest-in _")
+  Includes :: relation ("_ includes _")
+  Prioritize_environmental :: relation ("_ prioritize-environmental _")
+  Are_essential :: relation ("_ are-essential _")
+  Are_key :: relation ("_ are-key _")
+  Aim :: relation ("_ aim _")
+  Focuses_on :: relation ("_ focuses-on _")
+  Designed :: relation ("_ designed _")
+  Involves_innovative :: relation ("_ involves-innovative _")
+
+
+axiomatization where
+
+
+axiomatization where
+many_to_one0: "n_to_one_rel environmental__development Sustainable__cities Prioritize_environmental" 
+axiomatization where
+many_to_many2: "n_to_m_rel Renewable_energy_sources sustainable_energy_cities Are_integral" 
+axiomatization where
+many_to_many3: "n_to_m_rel Public_transportation_systems private__vehicles Designed" 
+axiomatization where
+one_to_one4: "one_to_one_rel Waste_management waste__energy Involves_innovative" 
+axiomatization where
+many_to_many5: "n_to_m_rel Sustainable__cities recreational_air_spaces Invest_in" 
+axiomatization where
+one_to_many6: "one_to_n_rel Community_engagement urban_sustainability_areas Are_key" 
+axiomatization where
+one_to_one7: "one_to_one_rel urban__development sustainable__construction Includes" 
+axiomatization where
+many_to_many8: "n_to_m_rel Water_conservation_measures sustainable_water_cities Are_essential" 
+axiomatization where
+many_to_many9: "n_to_m_rel Sustainable__cities inclusive__residents Aim" 
+
+(*Consistency*) 
+lemma True nitpick[satisfy,user_axioms,show_all,format=3] oops (*Model found*)
+
+end

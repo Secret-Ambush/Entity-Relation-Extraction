@@ -1,0 +1,36 @@
+SNO, Entity1, Entity2, Relation, Relation Type
+1, that, over million 3 people, is one, undefined
+2, Dubai, such  tourism, is, one-one
+3, economy, same  period, grown, one-one
+4, numerous strategic  ICT, life, altered, one-one
+5, Dubai, 2020, incorporates, undefined
+6, Dubai, various SDG 11  indicators, achieved, one-one
+7, one, homeless  Dubai, lives in, undefined
+8, households, registered  titles, have registered, one-one
+9, 100 per  cent, sanitation facilities, achieved, one-one
+10, UAE, 2019  report, maintained, one-one
+11, population, healthcare facilities, has, one-one
+12, Dubai, world, is well, one-one
+13, secondary education rates, primary  education, completed primary, one-one
+14, Dubai, substantially  city, has, one-one
+15, sustainable  Dubai, long term urban  plan, has, one-one
+16, Dubai, natural disaster related  deaths, had, one-one
+17, deaths, 100 per cent regular solid waste collection, has, one-one
+18, electricity transmission networks losses, 3, reduced to, undefined
+19, water network losses, 6, cent compared, undefined
+20, which, world, cent compared, undefined
+21, Dubai, CML  world, achieved, one-one
+22, 39  CML, Europe, compared to, one-one
+23, 11  Dubai, short  targets, developed several long, one-one
+24, Carbon Abatement Strategy, 2021, entails, undefined
+25, Dubai Clean Energy Strategy, 7 per 2020, aims, undefined
+26, Dubai, initial  phase, building, one-one
+27, Ruler, most valued  asset, launched in, one-one
+28, vision, happiest  earth, is, one-one
+29, Dubai, digital  innovation, aims, one-one
+30, such digital  transformation, city, aims, one-one
+31, city experiences, sustainability, embraces, one-one
+32, as well  proofs, Things IoT  systems, undertaken as, one-one
+33, Smart which, six  dimensions, strategy, undefined
+34, strategy, Smart Dubai implementation, entails, one-one
+35, Smart Dubai, country, adopted several emerging, one-one

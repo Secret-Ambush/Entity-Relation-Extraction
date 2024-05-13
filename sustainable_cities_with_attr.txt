@@ -1,0 +1,37 @@
+SNO, Entity1, Entity2, Relation, Relation Type
+1, that, over million 3 people, is one, undefined
+2, Dubai, such  tourism, is, one-one
+3, economy, same  period, grown, one-one
+4, Dubai, various SDG 11  indicators, achieved, one-one
+5, 100 per cent potable water supply, sanitation facilities, includes, one-one
+6, Dubai, world, has, one-one
+7, Long term strategies, smart autonomous mobility strategies, include, one-one
+8, Smart Dubai, city experiences, aims, one-one
+9, Smart Dubai initiative, IoT, encompasses various, one-one
+10, Dubai 2021 Smart strategy, inclusive  ecosystem, includes, one-one
+11, Smart Dubai, technology advancement, formed, one-one
+12, Dubai city experiences, schools, impact, one-one
+13, Smart Dubai, city experiences, adopted emerging, one-one
+14, Smart Dubai, opening businesses, announced, one-one
+15, Smart Dubai, AI roadmap, working with, one-one
+16, Smart Dubai, 2021 further Dubai city resources, aims, one-one
+17, sewerage, waste management traffic city resilience, connected, one-one
+18, Several use cases, IoT  strategy, implemented as, one-one
+19, Smart Dubai, more than 4,000  touchpoints, implemented, one-one
+20, more than million 22 votes, city level, collected from, one-one
+21, Happiness Meter, city experiences, provides, one-one
+22, open  data, economy, has, one-one
+23, Opening government data, annually  2021, result in, undefined
+24, today more than 90  percent, single shared  system, implemented, one-one
+25, total, just over a  decade, achieved in just, undefined
+26, Smart Dubai, shared ICT services, saved, one-one
+27, Smart Cities Global Smart Dubai, smart sustainable  cities, aims, one-one
+28, Startup Dubai startup, 4th Industrial Revolution, support, one-one
+29, Smart Dubai, Dubai Smart City Accelerator, launched, one-one
+30, accelerator, Startupbootcamp network, launched in, one-one
+31, Smart Dubai, city level, striving, one-one
+32, Dubai Paperless Strategy, city digitization, technology, one-one
+33, strategy, mobility, entails, one-one
+34, strategy, over US$ 350 million, estimated, undefined
+35, first city government, 2020, leading, undefined
+36, first  city, blockchain case, studies, one-one

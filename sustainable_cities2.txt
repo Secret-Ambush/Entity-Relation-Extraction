@@ -1,0 +1,11 @@
+SNO, Entity1, Entity2, Relation, Relation Type
+1, Sustainable  cities, environmental  development, prioritize environmental, many-one
+2, Urban  planning, rich carbon biodiversity, focuses on, undefined
+3, Renewable energy sources, sustainable energy cities, are, many-many
+4, Public transportation systems, private  vehicles, designed, many-many
+5, waste  that, waste  energy, involves innovative, undefined
+6, Sustainable  cities, recreational air spaces, invest in robust, many-many
+7, Community engagement, urban sustainability areas, are, one-many
+8, urban  development, maximum  efficiency, includes, one-one
+9, Water conservation measures, sustainable water cities, are imperative, many-many
+10, Sustainable  cities, adequately  residents, aim, many-many

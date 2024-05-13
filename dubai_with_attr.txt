@@ -1,0 +1,36 @@
+SNO, Entity1, Entity2, Relation, Relation Type
+1, that, 3 people, is one, undefined
+2, Dubai, tourism, is, one-one
+3, economy, period, grown, one-one
+4, ICT, life, altered, one-one
+5, Dubai, 2020, incorporates, undefined
+6, Dubai, indicators, achieved, one-one
+7, one, Dubai, lives in, undefined
+8, households, titles, have registered, one-one
+9, cent, sanitation facilities, achieved, one-one
+10, UAE, report, maintained, one-one
+11, population, healthcare facilities, has, one-one
+12, Dubai, world, is well, one-one
+13, rates, education, completed primary, one-one
+14, Dubai, city, has, one-one
+15, Dubai, plan, has, one-one
+16, Dubai, deaths, had, one-one
+17, deaths, waste collection, has, one-one
+18, losses, 3, reduced to, undefined
+19, losses, 6, cent compared, undefined
+20, which, world, cent compared, undefined
+21, Dubai, world, achieved, one-one
+22, CML, Europe, compared to, one-one
+23, Dubai, targets, developed several long, one-one
+24, Strategy, 2021, entails, undefined
+25, Strategy, per 2020, aims, undefined
+26, Dubai, phase, building, one-one
+27, Ruler, asset, launched in, one-one
+28, vision, earth, is, one-one
+29, Dubai, innovation, aims, one-one
+30, transformation, city, aims, one-one
+31, experiences, sustainability, embraces, one-one
+32, proofs, systems, undertaken as, one-one
+33, which, dimensions, strategy, undefined
+34, strategy, Smart Dubai implementation, entails, one-one
+35, Dubai, country, adopted several emerging, one-one
