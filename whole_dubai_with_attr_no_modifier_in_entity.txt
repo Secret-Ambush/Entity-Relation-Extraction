@@ -1,0 +1,12 @@
+SNO, Entity1, Entity2, Relation, Relation Type
+1, losses, 3, has, undefined
+2, losses, 6, cent compared, undefined
+3, which, world, achieved, undefined
+4, Dubai, schools, entails, one-one
+5, Dubai, AI, announced, one-one
+6, data, 2, collected from, undefined
+7, data, 1, result in, undefined
+8, cent, 1, implemented, undefined
+9, Dubai, 5, achieved in just, undefined
+10, government, Earth Dubai Happiness Agenda, aims, one-one
+11, city, blockchain case, studies, one-one
